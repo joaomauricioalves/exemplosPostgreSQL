@@ -15,14 +15,14 @@ Então você aceita o desafio?
 ```
  CREATE TABLE IF NOT EXISTS Orcamento(
 	idOrcamento serial PRIMARY KEY,
-	produto VARCHAR(90) NOT NULL,
-	marca VARCHAR(45) NOT NULL,
-	valor MONEY NOT NULL, 
-	tipo_instrumento VARCHAR(90) NOT NULL,
-	tipo_captadores VARCHAR(20) NOT NULL, 
-	modelo VARCHAR(40) NOT NULL, 
+	produto VARCHAR(90),
+	marca VARCHAR(45),
+	valor MONEY, 
+	tipo_instrumento VARCHAR(90),
+	tipo_captadores VARCHAR(20), 
+	modelo VARCHAR(40), 
 	ano int, 
-	made_in VARCHAR(15) NOT NULL,
+	made_in VARCHAR(15),
 	descricao VARCHAR(200)
 );
 ```
